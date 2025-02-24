@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            StreamWriter streamWriter = new StreamWriter("words.txt");
+            streamWriter.Close();
+
+            StreamReader reader = new StreamReader("words.txt");
+            string[] wordList = reader.ReadToEnd().Split(' ');
+            reader.Close();
         }
     }
 }
