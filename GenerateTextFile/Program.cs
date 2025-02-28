@@ -33,7 +33,7 @@
             streamWriter.WriteLine("White");
             streamWriter.WriteLine("Pink");
             streamWriter.WriteLine("Brown");
-            streamWriter.WriteLine("Brown");
+            streamWriter.WriteLine("Lime");
             streamWriter.WriteLine("Orange");
             streamWriter.WriteLine("Crimson");
             streamWriter.WriteLine("Peach");
